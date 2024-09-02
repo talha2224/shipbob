@@ -8,10 +8,7 @@ import ProductHero from '@/components/Hero/ProductHero'
 import Integration from '@/components/Integration'
 import Cards from '@/components/Cards/Cards'
 import Solution from '@/components/Solution/Solution'
-import FulfillmentSteps from '@/components/FulfillmentSteps/FulfillmentSteps'
-import FunFactProduct from '@/components/FunFact/FunFactProduct'
-
-import React from 'react'
+import FulfillmentSteps from '../../../components/FulFillmentSteps/FulfillmentSteps'
 import Image from '../../../public/images/hero/dynamic.png'
 import Distributed from '../../../public/images/hero/Distributed-Inventory-Analytics.png'
 import Day_iPhone from '../../../public/images/hero/2-Day-Express_Cart_iPhone.png'
@@ -19,6 +16,7 @@ import product from '../../../public/images/hero/product-sec5@2x.png'
 import product2 from '../../../public/images/hero/product-sec4@2x.png'
 import product3 from '../../../public/images/hero/product-sec7@2x.png'
 import last from '../../../public/images/hero/last.png'
+import FunFactProduct from '@/components/FunFact/FunFactProduct'
 const ProductPage = () => {
     return (
         <div>
