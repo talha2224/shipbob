@@ -27,6 +27,7 @@ const Blog = async () => {
           ))}
         </div>
       </div>
+
     </section>
   );
 };
