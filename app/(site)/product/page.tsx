@@ -8,7 +8,7 @@ import ProductHero from '@/components/Hero/ProductHero'
 import Integration from '@/components/Integration'
 import Cards from '@/components/Cards/Cards'
 import Solution from '@/components/Solution/Solution'
-import FulfillmentSteps from '../../../components/FulFillmentSteps/FulfillmentSteps'
+// import FulfillmentSteps from '../../../components/FulFillmentSteps/FulfillmentSteps'
 import Image from '../../../public/images/hero/dynamic.png'
 import Distributed from '../../../public/images/hero/Distributed-Inventory-Analytics.png'
 import Day_iPhone from '../../../public/images/hero/2-Day-Express_Cart_iPhone.png'
@@ -21,7 +21,7 @@ const ProductPage = () => {
     return (
         <div>
             <ProductHero />
-            <FulfillmentSteps />
+            {/* <FulfillmentSteps /> */}
 
             <Cards item={1} position={2} p1={"We’ve onboarded thousands of ecommerce merchants and helped some of the fastest-growing brands scale effortlessly. Our implementation team sets you up for success with everything from configuring your ship options, to syncing your online store."} p2={"ShipBob’s turnkey integrations with all major ecommerce platforms and marketplaces – including Shopify, BigCommerce, Amazon, and Walmart – let you import orders and send data back and forth for a two-way flow of information."} heading={"Easy and helpful"} url={Image} brWord={"onboarding"} />
 
